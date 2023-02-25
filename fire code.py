@@ -8,7 +8,7 @@ Created on Sat Feb 13 11:35:17 2021
 import pandas as pd
 import numpy as np
 
-data = pd.read_csv(r"C:\Users\Aakash\Desktop\AAKASH\Coding Stuff\Full Data Science\Support vector Machine\Assginment\fire.csv")
+data = pd.read_csv("fire.csv")
 data.describe()
 
 data.pop('month')
